@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ hr {
 ul {
         list-style-type: none;
         padding-left: 0;
-        text-align: right;
+        text-align: center;
         font-weight: 500;
     }
 
