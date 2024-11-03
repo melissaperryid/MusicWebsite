@@ -11,6 +11,13 @@ function showSlide(index) {
     }
     const offset = -currentIndex * 100;
     document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+    if (index !== activeIndex) {
+        // Hide non-active slides
+        slide.style.display = 'none';
+      } else {
+        // Show active slide
+        slide.style.display = 'block';
+      } 
 }
 
 function nextSlide() {
@@ -24,3 +31,12 @@ function prevSlide() {
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentIndex);
 });
+
+/* slides.forEach((slide, index) => {
+      if (index !== activeIndex) {
+        // Hide non-active slides
+        slide.style.display = 'none';
+      } else {
+        // Show active slide
+        slide.style.display = 'block';
+      } */

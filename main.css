@@ -89,6 +89,14 @@ ul {
         padding: 0.5rem;
     }
 
+    .container-video {
+        width: 600px;
+        height: 338px;
+        display: inline-block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
     .container {
 /*         border: 8px double #a9ccf1;
         font-size: 1.5rem;
@@ -117,17 +125,27 @@ ul {
         text-align: left;
     }
 
+
+    .carousel-container {
+        display: flex;                  /* Enables flexbox layout */
+        justify-content: center;        /* Centers carousel horizontally */
+        align-items: center;  
+        background-size: cover; 
+        background-size: no-repeat;          /* Centers carousel vertically */
+        /* height: 100vh;  */                 /* Full viewport height to vertically center */
+    }
     .carousel {
         position: relative;
         width: 100%;
         max-width: 600px;
         overflow: hidden;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
     }
     
     .carousel-inner {
         display: flex;
+        width: 100%;
         transition: transform 0.5s ease-in-out;
     }
     
@@ -137,6 +155,7 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
         height: 400px; /* Fixed height for the carousel items */
     }
     
