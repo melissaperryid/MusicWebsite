@@ -105,27 +105,31 @@ hr {
     }
 
     .carousel {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
-        width: 80%;
+        width: 100%;
         max-width: 600px;
         overflow: hidden;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        .carousel-inner {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-        
+    }
+    
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
     .carousel-item {
         min-width: 100%;
         box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px; /* Fixed height for the carousel items */
     }
     
     .carousel-item img {
-        width: 100%;
+        max-height: 100%; /* Ensure all images have the same height */
+        width: auto; /* Maintain the original proportions of the images */
         border-radius: 10px;
     }
     
