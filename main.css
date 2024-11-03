@@ -1,5 +1,6 @@
 html {
     font-size: 22px;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -9,6 +10,7 @@ html {
 body {
     background-color: #333;
     color: whitesmoke;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     max-width: 800px;
@@ -55,15 +57,18 @@ hr {
         border-width: 2px;
     }
 
-    ul {
+ul {
         list-style-type: none;
         padding-left: 0;
         text-align: right;
-        background-color: #0c213a;
         font-weight: 500;
     }
 
     .menu {
+        background-color: #0c213a;
+    }
+
+    .menu-item {
         display: inline-block;
         padding: .25rem;
         margin-inline: .5rem;
@@ -75,7 +80,6 @@ hr {
         list-style-position: inside;
         padding: .25rem;
         text-align: left;
-        background-color: #6c839c;
     }
     
     table, tr, th, td, caption {
@@ -86,7 +90,7 @@ hr {
     }
 
     .container {
-        border: 8px double #a9ccf1;
+/*         border: 8px double #a9ccf1;
         font-size: 1.5rem;
         margin: 1.5em;
         padding: 1rem;
@@ -94,14 +98,23 @@ hr {
         outline-offset: 5px;
         display: flex;
         align-items: center;
+        justify-content: center; */
+        display: inline-block;
+        margin: 0 auto;
         justify-content: center;
+        padding: none;
+        background: linear-gradient(0deg, rgba(108,131,156,1) 0%, rgba(118,146,171,1) 100%);
+        width: auto;
+        min-width: 70%;
+        max-width: 90vh;
+        min-height: 100vh;
     }
 
     .container2 {
     /*     border: 5px double #6c839c; */
         margin: .5em;
         padding: 5px;
-        background-color: #6c839c;
+        text-align: left;
     }
 
     .carousel {
