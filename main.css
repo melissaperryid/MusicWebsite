@@ -65,7 +65,7 @@ ul {
     }
 
     .menu {
-        background-color: #0c213a;
+        background-color: hsl(211, 66%, 14%);
     }
 
     .menu-item {
@@ -75,11 +75,26 @@ ul {
         color: #a9ccf1;
     }
 
+    #headshot {
+        float: right;
+        min-width: 30vh;
+        max-width: 50vh;
+        border-style: double;
+        border-color: #a9ccf1;
+        border-width: 4px;
+        margin-left: 1rem;
+    }
+
     .engagements {
         list-style-type: disc;
         list-style-position: inside;
         padding: .25rem;
         text-align: left;
+    }
+
+    #resume {
+        width: 100%;
+        height: 40rem;
     }
     
     table, tr, th, td, caption {
@@ -98,20 +113,11 @@ ul {
     }
 
     .container {
-/*         border: 8px double #a9ccf1;
-        font-size: 1.5rem;
-        margin: 1.5em;
-        padding: 1rem;
-        outline: 2px solid #6c839c;
-        outline-offset: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center; */
         display: inline-block;
         margin: 0 auto;
         justify-content: center;
         padding: none;
-        background: linear-gradient(0deg, rgba(108,131,156,1) 0%, rgba(118,146,171,1) 100%);
+        background: linear-gradient(0deg, hsl(211, 20%, 40%) 0%, rgba(118,146,171,1) 100%);
         width: auto;
         min-width: 70%;
         max-width: 90vh;
