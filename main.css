@@ -117,7 +117,7 @@ ul {
         margin: 0 auto;
         justify-content: center;
         padding: none;
-        background: linear-gradient(0deg, hsl(211, 20%, 40%) 0%, rgba(118,146,171,1) 100%);
+        background: linear-gradient(0deg, hsl(211, 20%, 30%) 0%, rgba(118,146,171,1) 100%);
         width: auto;
         min-width: 70%;
         max-width: 90vh;
