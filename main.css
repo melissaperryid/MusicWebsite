@@ -85,6 +85,13 @@ ul {
         margin-left: 1rem;
     }
 
+    #poster {
+        width: 100%;
+        height: auto;
+        position: center;
+        padding: 5px;
+    }
+
     .engagements {
         list-style-type: disc;
         list-style-position: inside;
@@ -131,6 +138,12 @@ ul {
         text-align: left;
     }
 
+    .container3 {
+        display: block;
+        margin: .5em;
+        justify-content: center;
+        padding: 5px;
+        }
 
     .carousel-container {
         display: flex;                  /* Enables flexbox layout */
