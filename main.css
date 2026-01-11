@@ -64,6 +64,12 @@ hr {
     border-width: 2px; */
     }
 
+li {
+    list-style-position: outside;
+}
+
+
+
 ul {
         list-style-type: none;
         padding-left: 0;
@@ -97,6 +103,10 @@ ul {
         height: auto;
         position: center;
         padding: 5px;
+    }
+
+    .poster-image {
+        width: 100%;
     }
 
     .engagements {
